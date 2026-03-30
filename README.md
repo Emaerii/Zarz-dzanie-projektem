@@ -1,1 +1,2 @@
 # Zarz-dzanie-projektem
+asdfasdfasdfasdf
