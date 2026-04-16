@@ -1,0 +1,9 @@
+All assets (graphics, sounds, models, etc.) included in this project
+are NOT covered by the MIT License.
+
+These assets are the property of Olesandraws and Emaeri.
+
+You are NOT allowed to copy, modify, redistribute, or use these assets
+in any project without explicit permission.
+
+All rights reserved.
