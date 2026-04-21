@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 9ef27218ce210c14bb348f176563e6dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6554849950691381306
+    second: mauve idle_0
+  - first:
+      213: 810084164521899037
+    second: mauve idle_1
+  - first:
+      213: -1546409126303302055
+    second: mauve idle_2
+  - first:
+      213: -8455703332453267711
+    second: mauve idle_3
+  - first:
+      213: -298267462388791254
+    second: mauve idle_4
+  - first:
+      213: 8616893458009585522
+    second: mauve idle_5
+  - first:
+      213: 8527663224695253058
+    second: mauve idle_6
+  - first:
+      213: 4057988154788167798
+    second: mauve idle_7
+  - first:
+      213: -7899428638238167577
+    second: mauve idle_8
+  - first:
+      213: 3342635145224125453
+    second: mauve idle_9
+  - first:
+      213: -8521995024198169124
+    second: mauve idle_10
+  - first:
+      213: -2906118890534549484
+    second: mauve idle_11
+  - first:
+      213: -6994154235537608880
+    second: mauve idle_12
+  - first:
+      213: 1799689748021603193
+    second: mauve idle_13
+  - first:
+      213: -9054971439790849814
+    second: mauve idle_14
+  - first:
+      213: -5166068815825699479
+    second: mauve idle_15
+  - first:
+      213: 3184450845195830320
+    second: mauve idle_16
+  - first:
+      213: 3064033354342443862
+    second: mauve idle_17
+  - first:
+      213: 8292622801210614627
+    second: mauve idle_18
+  - first:
+      213: 1014211647078014112
+    second: mauve idle_19
+  - first:
+      213: -8859251857548405847
+    second: mauve idle_20
+  - first:
+      213: 2906278888115944366
+    second: mauve idle_21
+  - first:
+      213: -4147735788983262253
+    second: mauve idle_22
+  - first:
+      213: 2553390583754419350
+    second: mauve idle_23
+  - first:
+      213: -901499392210243166
+    second: mauve idle_24
+  - first:
+      213: -7800861161199800447
+    second: mauve idle_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mauve idle_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 353
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfad0de2be7805a0800000000000000
+      internalID: -6554849950691381306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_1
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 16
+        width: 353
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d143f70714ffd3b00800000000000000
+      internalID: 810084164521899037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_2
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 16
+        width: 353
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ef445c71d0a8ae0800000000000000
+      internalID: -1546409126303302055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_3
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 16
+        width: 353
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107490f8e9e47aa80800000000000000
+      internalID: -8455703332453267711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_4
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 16
+        width: 353
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a284240c2575cdbf0800000000000000
+      internalID: -298267462388791254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_5
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 16
+        width: 353
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2777c0022fa559770800000000000000
+      internalID: 8616893458009585522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_6
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 16
+        width: 353
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2486f187588585670800000000000000
+      internalID: 8527663224695253058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_7
+      rect:
+        serializedVersion: 2
+        x: 2718
+        y: 16
+        width: 353
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67044e40abed05830800000000000000
+      internalID: 4057988154788167798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_8
+      rect:
+        serializedVersion: 2
+        x: 3104
+        y: 16
+        width: 353
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed2449a1879f5290800000000000000
+      internalID: -7899428638238167577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_9
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 16
+        width: 353
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0cf1dc54fc636e20800000000000000
+      internalID: 3342635145224125453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_10
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 16
+        width: 353
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd850d4daacbb980800000000000000
+      internalID: -8521995024198169124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_11
+      rect:
+        serializedVersion: 2
+        x: 4262
+        y: 16
+        width: 353
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418c2ae24446ba7d0800000000000000
+      internalID: -2906118890534549484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_12
+      rect:
+        serializedVersion: 2
+        x: 4648
+        y: 16
+        width: 353
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05fac7687c5cfee90800000000000000
+      internalID: -6994154235537608880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_13
+      rect:
+        serializedVersion: 2
+        x: 5034
+        y: 16
+        width: 353
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b6db86a48c9f810800000000000000
+      internalID: 1799689748021603193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_14
+      rect:
+        serializedVersion: 2
+        x: 5420
+        y: 16
+        width: 353
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae085f76377465280800000000000000
+      internalID: -9054971439790849814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_15
+      rect:
+        serializedVersion: 2
+        x: 5806
+        y: 16
+        width: 353
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d7c7378cf6e48b0800000000000000
+      internalID: -5166068815825699479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_16
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 16
+        width: 353
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0340798fb21713c20800000000000000
+      internalID: 3184450845195830320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_17
+      rect:
+        serializedVersion: 2
+        x: 6578
+        y: 16
+        width: 353
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ba7811a12a58a20800000000000000
+      internalID: 3064033354342443862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_18
+      rect:
+        serializedVersion: 2
+        x: 6964
+        y: 16
+        width: 353
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363a6726080551370800000000000000
+      internalID: 8292622801210614627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_19
+      rect:
+        serializedVersion: 2
+        x: 7350
+        y: 16
+        width: 353
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac16279e14331e00800000000000000
+      internalID: 1014211647078014112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_20
+      rect:
+        serializedVersion: 2
+        x: 7736
+        y: 16
+        width: 353
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a39b17bf5d9d0580800000000000000
+      internalID: -8859251857548405847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_21
+      rect:
+        serializedVersion: 2
+        x: 8122
+        y: 16
+        width: 353
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab3e58204d255820800000000000000
+      internalID: 2906278888115944366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_22
+      rect:
+        serializedVersion: 2
+        x: 8508
+        y: 16
+        width: 353
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d36a7b86484076c0800000000000000
+      internalID: -4147735788983262253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_23
+      rect:
+        serializedVersion: 2
+        x: 8894
+        y: 16
+        width: 353
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c628d15377f6320800000000000000
+      internalID: 2553390583754419350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_24
+      rect:
+        serializedVersion: 2
+        x: 9280
+        y: 16
+        width: 353
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1f312441b3d73f0800000000000000
+      internalID: -901499392210243166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve idle_25
+      rect:
+        serializedVersion: 2
+        x: 9666
+        y: 16
+        width: 353
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f6b88ca16cdb390800000000000000
+      internalID: -7800861161199800447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mauve idle_0: -6554849950691381306
+      mauve idle_1: 810084164521899037
+      mauve idle_10: -8521995024198169124
+      mauve idle_11: -2906118890534549484
+      mauve idle_12: -6994154235537608880
+      mauve idle_13: 1799689748021603193
+      mauve idle_14: -9054971439790849814
+      mauve idle_15: -5166068815825699479
+      mauve idle_16: 3184450845195830320
+      mauve idle_17: 3064033354342443862
+      mauve idle_18: 8292622801210614627
+      mauve idle_19: 1014211647078014112
+      mauve idle_2: -1546409126303302055
+      mauve idle_20: -8859251857548405847
+      mauve idle_21: 2906278888115944366
+      mauve idle_22: -4147735788983262253
+      mauve idle_23: 2553390583754419350
+      mauve idle_24: -901499392210243166
+      mauve idle_25: -7800861161199800447
+      mauve idle_3: -8455703332453267711
+      mauve idle_4: -298267462388791254
+      mauve idle_5: 8616893458009585522
+      mauve idle_6: 8527663224695253058
+      mauve idle_7: 4057988154788167798
+      mauve idle_8: -7899428638238167577
+      mauve idle_9: 3342635145224125453
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
