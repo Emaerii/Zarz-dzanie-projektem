@@ -19,7 +19,6 @@ public class PlayerMovement : MonoBehaviour
 
 	public Animator PlayerAnimator;
 	
-
 	public PlayerData Data;
 
 	#region Variables
@@ -51,8 +50,12 @@ public class PlayerMovement : MonoBehaviour
 	private Vector2 _moveInput;
 	public float LastPressedJumpTime { get; private set; }
 
-	//Set all of these up in the inspector
-	[Header("Checks")] 
+	//checkin mechanic
+    public bool canCheck;
+    
+
+    //Set all of these up in the inspector
+    [Header("Checks")] 
 	[SerializeField] private Transform _groundCheckPoint;
 	//Size of groundCheck depends on the size of your character generally you want them slightly small than width (for ground) and height (for the wall check)
 	[SerializeField] private Vector2 _groundCheckSize = new Vector2(0.49f, 0.03f);
@@ -63,7 +66,39 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Layers & Tags")]
 	[SerializeField] private LayerMask _groundLayer;
-	#endregion
+    #endregion
+
+    #region drzwi
+    private Leverscript currentLever;
+	private GameObject currentInteractable;
+    public void SetCurrentLever(Leverscript lever)
+    {
+        currentLever = lever;
+    }
+
+    public void ClearCurrentLever()
+    {
+        currentLever = null;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Interactable"))
+        {
+            canCheck = true;
+            currentInteractable = other.gameObject;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Interactable"))
+        {
+            canCheck = false;
+            currentInteractable = null;
+        }
+    }
+    #endregion
 
     private void Awake()
 	{
@@ -268,10 +303,22 @@ public class PlayerMovement : MonoBehaviour
 
 	public void OnEInput()
 	{
-		if (CanCheck())
-			PlayerAnimator.SetBool("IsChecking", true);
+		if (!CanCheck())
+			return;
 
-	}
+		
+		PlayerAnimator.SetBool("IsChecking", true);
+
+        Leverscript lever =
+        currentInteractable.GetComponent<Leverscript>();
+
+        if (lever != null)
+        {
+            lever.ToggleLever();
+        }
+
+        currentLever.ToggleLever();
+    }
 
 
 
@@ -440,8 +487,8 @@ public class PlayerMovement : MonoBehaviour
 
 	private bool CanCheck()
 	{
-		return true;
-	}
+        return canCheck;
+    }	
 
 	private bool CanWallJumpCut()
 	{
@@ -455,6 +502,7 @@ public class PlayerMovement : MonoBehaviour
 		else
 			return false;
 	}
+
     #endregion
 
     #region Respawn and Die
