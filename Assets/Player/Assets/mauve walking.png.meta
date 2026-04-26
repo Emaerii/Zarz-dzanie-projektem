@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: c7307f414fbb47243aa9648b826f41be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7593244383323708237
+    second: mauve walking_0
+  - first:
+      213: 5646666976358735014
+    second: mauve walking_1
+  - first:
+      213: -2416070003294835831
+    second: mauve walking_2
+  - first:
+      213: 8908377016574965997
+    second: mauve walking_3
+  - first:
+      213: -501233132024276634
+    second: mauve walking_4
+  - first:
+      213: -5153816891549596472
+    second: mauve walking_5
+  - first:
+      213: 2757434641534975879
+    second: mauve walking_6
+  - first:
+      213: 2185165128721813602
+    second: mauve walking_7
+  - first:
+      213: -5601620039828332405
+    second: mauve walking_8
+  - first:
+      213: -2826292564041860421
+    second: mauve walking_9
+  - first:
+      213: -7047019397322393681
+    second: mauve walking_10
+  - first:
+      213: -7493368351148144706
+    second: mauve walking_11
+  - first:
+      213: -7526236480993154525
+    second: mauve walking_12
+  - first:
+      213: 8369402510549092599
+    second: mauve walking_13
+  - first:
+      213: -9018746323597425688
+    second: mauve walking_14
+  - first:
+      213: 4764504574257854156
+    second: mauve walking_15
+  - first:
+      213: 841351846919815667
+    second: mauve walking_16
+  - first:
+      213: 1705661089556741674
+    second: mauve walking_17
+  - first:
+      213: -8581516902177809250
+    second: mauve walking_18
+  - first:
+      213: 8942728323730745871
+    second: mauve walking_19
+  - first:
+      213: 4548695605994888993
+    second: mauve walking_20
+  - first:
+      213: -2868771798557150102
+    second: mauve walking_21
+  - first:
+      213: 7060410681483673467
+    second: mauve walking_22
+  - first:
+      213: -4565674918323564184
+    second: mauve walking_23
+  - first:
+      213: 8707786745780588240
+    second: mauve walking_24
+  - first:
+      213: -8221845826988549371
+    second: mauve walking_25
+  - first:
+      213: 2791205708665367987
+    second: mauve walking_26
+  - first:
+      213: 3308739764604794194
+    second: mauve walking_27
+  - first:
+      213: 8398915530115144804
+    second: mauve walking_28
+  - first:
+      213: 4588778824754787674
+    second: mauve walking_29
+  - first:
+      213: -5061054939319155015
+    second: mauve walking_30
+  - first:
+      213: 3280831362703163785
+    second: mauve walking_31
+  - first:
+      213: -5131995860817218546
+    second: mauve walking_32
+  - first:
+      213: 3335944533884048555
+    second: mauve walking_33
+  - first:
+      213: 1071358760083968668
+    second: mauve walking_34
+  - first:
+      213: 794854553144137912
+    second: mauve walking_35
+  - first:
+      213: -2132585042407624262
+    second: mauve walking_36
+  - first:
+      213: -6298606513369555350
+    second: mauve walking_37
+  - first:
+      213: 8841898495345949365
+    second: mauve walking_38
+  - first:
+      213: -493094301991396600
+    second: mauve walking_39
+  - first:
+      213: 727237761923631515
+    second: mauve walking_40
+  - first:
+      213: -3548081067850593783
+    second: mauve walking_41
+  - first:
+      213: -5561729344374950366
+    second: mauve walking_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mauve walking_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 36
+        width: 331
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b5db0398f906960800000000000000
+      internalID: 7593244383323708237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_1
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 36
+        width: 331
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac9aca92bdfc5e40800000000000000
+      internalID: 5646666976358735014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_2
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 38
+        width: 331
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b62250225687ed0800000000000000
+      internalID: -2416070003294835831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_3
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 38
+        width: 331
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8743ea2b9e0ab70800000000000000
+      internalID: 8908377016574965997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_4
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 37
+        width: 331
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66959004f134b09f0800000000000000
+      internalID: -501233132024276634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_5
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 37
+        width: 331
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c447cdd7d6f978b0800000000000000
+      internalID: -5153816891549596472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_6
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 42
+        width: 331
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f7c0c6230644620800000000000000
+      internalID: 2757434641534975879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_7
+      rect:
+        serializedVersion: 2
+        x: 2729
+        y: 42
+        width: 331
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260d8096b14435e10800000000000000
+      internalID: 2185165128721813602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_8
+      rect:
+        serializedVersion: 2
+        x: 3115
+        y: 41
+        width: 331
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80a25f904c0342b0800000000000000
+      internalID: -5601620039828332405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_9
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 41
+        width: 331
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbaf4f823edf6c8d0800000000000000
+      internalID: -2826292564041860421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_10
+      rect:
+        serializedVersion: 2
+        x: 3887
+        y: 37
+        width: 331
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7bf41e135f33e90800000000000000
+      internalID: -7047019397322393681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_11
+      rect:
+        serializedVersion: 2
+        x: 4273
+        y: 37
+        width: 331
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb709aaaf25320890800000000000000
+      internalID: -7493368351148144706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_12
+      rect:
+        serializedVersion: 2
+        x: 4659
+        y: 42
+        width: 331
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a21d6dbcf6d8790800000000000000
+      internalID: -7526236480993154525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_13
+      rect:
+        serializedVersion: 2
+        x: 5045
+        y: 42
+        width: 331
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f88a878d37162470800000000000000
+      internalID: 8369402510549092599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_14
+      rect:
+        serializedVersion: 2
+        x: 5431
+        y: 36
+        width: 331
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e38d96800af6d280800000000000000
+      internalID: -9018746323597425688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_15
+      rect:
+        serializedVersion: 2
+        x: 5817
+        y: 36
+        width: 331
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6fc57baabee1240800000000000000
+      internalID: 4764504574257854156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_16
+      rect:
+        serializedVersion: 2
+        x: 6203
+        y: 38
+        width: 331
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f146ce0c051dab00800000000000000
+      internalID: 841351846919815667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_17
+      rect:
+        serializedVersion: 2
+        x: 6589
+        y: 38
+        width: 331
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e3c3659b9bba710800000000000000
+      internalID: 1705661089556741674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_18
+      rect:
+        serializedVersion: 2
+        x: 6975
+        y: 37
+        width: 331
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c5ea328d358e880800000000000000
+      internalID: -8581516902177809250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_19
+      rect:
+        serializedVersion: 2
+        x: 7361
+        y: 37
+        width: 331
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0aabc2a704fa1c70800000000000000
+      internalID: 8942728323730745871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_20
+      rect:
+        serializedVersion: 2
+        x: 7747
+        y: 42
+        width: 331
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f94babd86302f30800000000000000
+      internalID: 4548695605994888993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_21
+      rect:
+        serializedVersion: 2
+        x: 8133
+        y: 42
+        width: 331
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64b755af331038d0800000000000000
+      internalID: -2868771798557150102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_22
+      rect:
+        serializedVersion: 2
+        x: 8519
+        y: 41
+        width: 331
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f353e6b1e9bf160800000000000000
+      internalID: 7060410681483673467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_23
+      rect:
+        serializedVersion: 2
+        x: 8905
+        y: 41
+        width: 331
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861d96d0ad673a0c0800000000000000
+      internalID: -4565674918323564184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_24
+      rect:
+        serializedVersion: 2
+        x: 9291
+        y: 37
+        width: 331
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de4b12d8e548d870800000000000000
+      internalID: 8707786745780588240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_25
+      rect:
+        serializedVersion: 2
+        x: 9677
+        y: 37
+        width: 331
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bd15418c226ed80800000000000000
+      internalID: -8221845826988549371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_26
+      rect:
+        serializedVersion: 2
+        x: 10063
+        y: 42
+        width: 331
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bdaa08bdca5cb620800000000000000
+      internalID: 2791205708665367987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_27
+      rect:
+        serializedVersion: 2
+        x: 10449
+        y: 42
+        width: 331
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2557a7319410bed20800000000000000
+      internalID: 3308739764604794194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_28
+      rect:
+        serializedVersion: 2
+        x: 10835
+        y: 42
+        width: 331
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c560fdc21fe8470800000000000000
+      internalID: 8398915530115144804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_29
+      rect:
+        serializedVersion: 2
+        x: 11221
+        y: 36
+        width: 331
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55f75a570e9eaf30800000000000000
+      internalID: 4588778824754787674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_30
+      rect:
+        serializedVersion: 2
+        x: 11607
+        y: 36
+        width: 331
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b64529e85583c9b0800000000000000
+      internalID: -5061054939319155015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_31
+      rect:
+        serializedVersion: 2
+        x: 11993
+        y: 38
+        width: 331
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98102e5edbad78d20800000000000000
+      internalID: 3280831362703163785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_32
+      rect:
+        serializedVersion: 2
+        x: 12379
+        y: 38
+        width: 331
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04f63f74fc77c8b0800000000000000
+      internalID: -5131995860817218546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_33
+      rect:
+        serializedVersion: 2
+        x: 12765
+        y: 37
+        width: 331
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4909401e7ab4e20800000000000000
+      internalID: 3335944533884048555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_34
+      rect:
+        serializedVersion: 2
+        x: 13151
+        y: 37
+        width: 331
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92dec1bd1b3ede00800000000000000
+      internalID: 1071358760083968668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_35
+      rect:
+        serializedVersion: 2
+        x: 13537
+        y: 42
+        width: 331
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b812483104e70b00800000000000000
+      internalID: 794854553144137912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_36
+      rect:
+        serializedVersion: 2
+        x: 13923
+        y: 42
+        width: 331
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab17bfde3398762e0800000000000000
+      internalID: -2132585042407624262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_37
+      rect:
+        serializedVersion: 2
+        x: 14309
+        y: 41
+        width: 331
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e55ae5fbad698a0800000000000000
+      internalID: -6298606513369555350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_38
+      rect:
+        serializedVersion: 2
+        x: 14695
+        y: 41
+        width: 331
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5baf72bc5dbb4ba70800000000000000
+      internalID: 8841898495345949365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_39
+      rect:
+        serializedVersion: 2
+        x: 15081
+        y: 37
+        width: 331
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b9809485d2829f0800000000000000
+      internalID: -493094301991396600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_40
+      rect:
+        serializedVersion: 2
+        x: 15467
+        y: 37
+        width: 331
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9945b234eaa71a00800000000000000
+      internalID: 727237761923631515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_41
+      rect:
+        serializedVersion: 2
+        x: 15853
+        y: 42
+        width: 331
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a0a7c311fa2cec0800000000000000
+      internalID: -3548081067850593783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mauve walking_42
+      rect:
+        serializedVersion: 2
+        x: 16239
+        y: 42
+        width: 331
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2263aabe0a4c0d2b0800000000000000
+      internalID: -5561729344374950366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mauve walking_0: 7593244383323708237
+      mauve walking_1: 5646666976358735014
+      mauve walking_10: -7047019397322393681
+      mauve walking_11: -7493368351148144706
+      mauve walking_12: -7526236480993154525
+      mauve walking_13: 8369402510549092599
+      mauve walking_14: -9018746323597425688
+      mauve walking_15: 4764504574257854156
+      mauve walking_16: 841351846919815667
+      mauve walking_17: 1705661089556741674
+      mauve walking_18: -8581516902177809250
+      mauve walking_19: 8942728323730745871
+      mauve walking_2: -2416070003294835831
+      mauve walking_20: 4548695605994888993
+      mauve walking_21: -2868771798557150102
+      mauve walking_22: 7060410681483673467
+      mauve walking_23: -4565674918323564184
+      mauve walking_24: 8707786745780588240
+      mauve walking_25: -8221845826988549371
+      mauve walking_26: 2791205708665367987
+      mauve walking_27: 3308739764604794194
+      mauve walking_28: 8398915530115144804
+      mauve walking_29: 4588778824754787674
+      mauve walking_3: 8908377016574965997
+      mauve walking_30: -5061054939319155015
+      mauve walking_31: 3280831362703163785
+      mauve walking_32: -5131995860817218546
+      mauve walking_33: 3335944533884048555
+      mauve walking_34: 1071358760083968668
+      mauve walking_35: 794854553144137912
+      mauve walking_36: -2132585042407624262
+      mauve walking_37: -6298606513369555350
+      mauve walking_38: 8841898495345949365
+      mauve walking_39: -493094301991396600
+      mauve walking_4: -501233132024276634
+      mauve walking_40: 727237761923631515
+      mauve walking_41: -3548081067850593783
+      mauve walking_42: -5561729344374950366
+      mauve walking_5: -5153816891549596472
+      mauve walking_6: 2757434641534975879
+      mauve walking_7: 2185165128721813602
+      mauve walking_8: -5601620039828332405
+      mauve walking_9: -2826292564041860421
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

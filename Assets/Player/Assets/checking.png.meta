@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 8bdbcd9c293a1c748814bca81fc7bdd9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4294009779177694087
+    second: checking_0
+  - first:
+      213: 1230795743691298623
+    second: checking_1
+  - first:
+      213: 2543724941992310290
+    second: checking_2
+  - first:
+      213: 6616038393931820921
+    second: checking_3
+  - first:
+      213: -5203453227626468393
+    second: checking_4
+  - first:
+      213: -4360968092905526324
+    second: checking_5
+  - first:
+      213: 4755171289181631983
+    second: checking_6
+  - first:
+      213: 4723500273484740722
+    second: checking_7
+  - first:
+      213: 3700757490586966138
+    second: checking_8
+  - first:
+      213: 1662777540952978333
+    second: checking_9
+  - first:
+      213: -708533852151950106
+    second: checking_10
+  - first:
+      213: 3507134723725765587
+    second: checking_11
+  - first:
+      213: -6256640980024228465
+    second: checking_12
+  - first:
+      213: -5035921656060088591
+    second: checking_13
+  - first:
+      213: 4646845855580149563
+    second: checking_14
+  - first:
+      213: -7858568773322241115
+    second: checking_15
+  - first:
+      213: -812304107210626760
+    second: checking_16
+  - first:
+      213: 7507625378655849860
+    second: checking_17
+  - first:
+      213: 483183822376790497
+    second: checking_18
+  - first:
+      213: -4332500868603606884
+    second: checking_19
+  - first:
+      213: -1772152071642666064
+    second: checking_20
+  - first:
+      213: 7164085313095867399
+    second: checking_21
+  - first:
+      213: -6315114231770778787
+    second: checking_22
+  - first:
+      213: 6896279647748041946
+    second: checking_23
+  - first:
+      213: -2309841366905788719
+    second: checking_24
+  - first:
+      213: -4676325034225011898
+    second: checking_25
+  - first:
+      213: 2120435878678633432
+    second: checking_26
+  - first:
+      213: 1453466144424037539
+    second: checking_27
+  - first:
+      213: 8358325036222736147
+    second: checking_28
+  - first:
+      213: -7587227669457134546
+    second: checking_29
+  - first:
+      213: -5007083428291796601
+    second: checking_30
+  - first:
+      213: -7288765579574520818
+    second: checking_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: checking_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 20
+        width: 336
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783a0fdb423679b30800000000000000
+      internalID: 4294009779177694087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_1
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 20
+        width: 336
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3758c5353aa41110800000000000000
+      internalID: 1230795743691298623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_2
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 17
+        width: 341
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216b0c58b502d4320800000000000000
+      internalID: 2543724941992310290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_3
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 17
+        width: 341
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97fe6a2bdd3e0db50800000000000000
+      internalID: 6616038393931820921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_4
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 21
+        width: 331
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbe6f9cbde99c7b0800000000000000
+      internalID: -5203453227626468393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_5
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 21
+        width: 331
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbad89ff9aba73c0800000000000000
+      internalID: -4360968092905526324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_6
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 17
+        width: 341
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5bec1f713cdf140800000000000000
+      internalID: 4755171289181631983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_7
+      rect:
+        serializedVersion: 2
+        x: 2724
+        y: 17
+        width: 341
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278b489f87e3d8140800000000000000
+      internalID: 4723500273484740722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_8
+      rect:
+        serializedVersion: 2
+        x: 3111
+        y: 15
+        width: 309
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a785d4a845bbb5330800000000000000
+      internalID: 3700757490586966138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_9
+      rect:
+        serializedVersion: 2
+        x: 3497
+        y: 15
+        width: 309
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93fffc1d5f531710800000000000000
+      internalID: 1662777540952978333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_10
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 17
+        width: 353
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4d4272738ca26f0800000000000000
+      internalID: -708533852151950106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_11
+      rect:
+        serializedVersion: 2
+        x: 4262
+        y: 17
+        width: 353
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dbac1b1378dba030800000000000000
+      internalID: 3507134723725765587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_12
+      rect:
+        serializedVersion: 2
+        x: 4648
+        y: 17
+        width: 353
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8501828d22fb29a0800000000000000
+      internalID: -6256640980024228465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_13
+      rect:
+        serializedVersion: 2
+        x: 5034
+        y: 17
+        width: 353
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe67dd6fefcc1ab0800000000000000
+      internalID: -5035921656060088591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_14
+      rect:
+        serializedVersion: 2
+        x: 5420
+        y: 17
+        width: 353
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37d9d38fa9ec7040800000000000000
+      internalID: 4646845855580149563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_15
+      rect:
+        serializedVersion: 2
+        x: 5806
+        y: 17
+        width: 353
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab862f4651c0f290800000000000000
+      internalID: -7858568773322241115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_16
+      rect:
+        serializedVersion: 2
+        x: 6193
+        y: 16
+        width: 351
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839ae10e7bd1ab4f0800000000000000
+      internalID: -812304107210626760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_17
+      rect:
+        serializedVersion: 2
+        x: 6579
+        y: 16
+        width: 351
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d4d793181703860800000000000000
+      internalID: 7507625378655849860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_18
+      rect:
+        serializedVersion: 2
+        x: 6965
+        y: 16
+        width: 351
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9ebfd502d94b600800000000000000
+      internalID: 483183822376790497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_19
+      rect:
+        serializedVersion: 2
+        x: 7351
+        y: 16
+        width: 351
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c988fc12a6ddfd3c0800000000000000
+      internalID: -4332500868603606884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_20
+      rect:
+        serializedVersion: 2
+        x: 7737
+        y: 16
+        width: 351
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb24c1841d0867e0800000000000000
+      internalID: -1772152071642666064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_21
+      rect:
+        serializedVersion: 2
+        x: 8123
+        y: 16
+        width: 351
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c1ca3a2a1fb6360800000000000000
+      internalID: 7164085313095867399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_22
+      rect:
+        serializedVersion: 2
+        x: 8509
+        y: 16
+        width: 351
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53f94ba0153c58a0800000000000000
+      internalID: -6315114231770778787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_23
+      rect:
+        serializedVersion: 2
+        x: 8895
+        y: 16
+        width: 351
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc27c33dc184bf50800000000000000
+      internalID: 6896279647748041946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_24
+      rect:
+        serializedVersion: 2
+        x: 9281
+        y: 16
+        width: 351
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6e31ec38bc1ffd0800000000000000
+      internalID: -2309841366905788719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_25
+      rect:
+        serializedVersion: 2
+        x: 9667
+        y: 16
+        width: 351
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64370c8582b5a1fb0800000000000000
+      internalID: -4676325034225011898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_26
+      rect:
+        serializedVersion: 2
+        x: 10053
+        y: 16
+        width: 351
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db12a5723d4d6d10800000000000000
+      internalID: 2120435878678633432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_27
+      rect:
+        serializedVersion: 2
+        x: 10439
+        y: 16
+        width: 351
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac837fe1cfbb2410800000000000000
+      internalID: 1453466144424037539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_28
+      rect:
+        serializedVersion: 2
+        x: 10825
+        y: 16
+        width: 351
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3176f4d065cbef370800000000000000
+      internalID: 8358325036222736147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_29
+      rect:
+        serializedVersion: 2
+        x: 11211
+        y: 16
+        width: 351
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c1efb22a0c4b690800000000000000
+      internalID: -7587227669457134546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_30
+      rect:
+        serializedVersion: 2
+        x: 11597
+        y: 16
+        width: 351
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7812cef8624438ab0800000000000000
+      internalID: -5007083428291796601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checking_31
+      rect:
+        serializedVersion: 2
+        x: 11983
+        y: 16
+        width: 351
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04dd5aa25a19da90800000000000000
+      internalID: -7288765579574520818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      checking_0: 4294009779177694087
+      checking_1: 1230795743691298623
+      checking_10: -708533852151950106
+      checking_11: 3507134723725765587
+      checking_12: -6256640980024228465
+      checking_13: -5035921656060088591
+      checking_14: 4646845855580149563
+      checking_15: -7858568773322241115
+      checking_16: -812304107210626760
+      checking_17: 7507625378655849860
+      checking_18: 483183822376790497
+      checking_19: -4332500868603606884
+      checking_2: 2543724941992310290
+      checking_20: -1772152071642666064
+      checking_21: 7164085313095867399
+      checking_22: -6315114231770778787
+      checking_23: 6896279647748041946
+      checking_24: -2309841366905788719
+      checking_25: -4676325034225011898
+      checking_26: 2120435878678633432
+      checking_27: 1453466144424037539
+      checking_28: 8358325036222736147
+      checking_29: -7587227669457134546
+      checking_3: 6616038393931820921
+      checking_30: -5007083428291796601
+      checking_31: -7288765579574520818
+      checking_4: -5203453227626468393
+      checking_5: -4360968092905526324
+      checking_6: 4755171289181631983
+      checking_7: 4723500273484740722
+      checking_8: 3700757490586966138
+      checking_9: 1662777540952978333
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

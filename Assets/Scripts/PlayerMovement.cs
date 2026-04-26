@@ -17,6 +17,9 @@ public class PlayerMovement : MonoBehaviour
 	//HOW TO: to add the scriptable object, right-click in the project window -> create -> Player Data
 	//Next, drag it into the slot in playerMovement on your player
 
+	public Animator PlayerAnimator;
+	
+
 	public PlayerData Data;
 
 	#region Variables
@@ -100,16 +103,29 @@ public class PlayerMovement : MonoBehaviour
 		{
 			OnJumpUpInput();
 		}
-		#endregion
+        
+		if (Input.GetKeyDown(KeyCode.E))
+        {
+			OnEInput();
+                        //PlayerAnimator.SetBool("IsChecking", false); //tutaj potem dodaj z input callbacks kommende aby cos to robilo poza wygladem. tez musisz sprawdzac czy jest interactable (jako ta
+        }
+        
+		if (Input.GetKeyDown(KeyCode.E) == false)
+        {
+           PlayerAnimator.SetBool("IsChecking", false); 
+        }
 
-		#region COLLISION CHECKS
-		if (!IsJumping)
+        #endregion
+
+        #region COLLISION CHECKS
+        if (!IsJumping)
 		{
-			//Ground Check
-			if (Physics2D.OverlapBox(_groundCheckPoint.position, _groundCheckSize, 0, _groundLayer) && !IsJumping) //checks if set box overlaps with ground
+			       
+            //Ground Check
+            if (Physics2D.OverlapBox(_groundCheckPoint.position, _groundCheckSize, 0, _groundLayer) && !IsJumping) //checks if set box overlaps with ground
 			{
-				LastOnGroundTime = Data.coyoteTime; //if so sets the lastGrounded to coyoteTime
-            }		
+                              LastOnGroundTime = Data.coyoteTime; //if so sets the lastGrounded to coyoteTime
+            }	
 
 			//Right Wall Check
 			if (((Physics2D.OverlapBox(_frontWallCheckPoint.position, _wallCheckSize, 0, _groundLayer) && IsFacingRight)
@@ -146,10 +162,18 @@ public class PlayerMovement : MonoBehaviour
 
 			if(!IsJumping)
 				_isJumpFalling = false;
-		}
 
-		//Jump
-		if (CanJump() && LastPressedJumpTime > 0)
+            PlayerAnimator.SetBool("IsGrounded", true);
+        } else { PlayerAnimator.SetBool("IsGrounded", false); }
+
+			PlayerAnimator.SetBool("IsJumping", IsJumping);
+			PlayerAnimator.SetBool("IsWallJumping", IsWallJumping);
+
+    
+       
+	
+        //Jump
+        if (CanJump() && LastPressedJumpTime > 0)
 		{
 			IsJumping = true;
 			IsWallJumping = false;
@@ -229,7 +253,7 @@ public class PlayerMovement : MonoBehaviour
 			Slide();
     }
 
-    #region INPUT CALLBACKS
+    #region INPUT CALLBACKS  // tutaj bede musiala dodac kod sprawdzanai coliderow i wchozenie do interackcji
 	//Methods which whandle input detected in Update()
     public void OnJumpInput()
 	{
@@ -241,6 +265,18 @@ public class PlayerMovement : MonoBehaviour
 		if (CanJumpCut() || CanWallJumpCut())
 			_isJumpCut = true;
 	}
+
+	public void OnEInput()
+	{
+		if (CanCheck())
+			PlayerAnimator.SetBool("IsChecking", true);
+
+	}
+
+
+
+
+
     #endregion
 
     #region GENERAL METHODS
@@ -303,6 +339,9 @@ public class PlayerMovement : MonoBehaviour
 		 * RB.velocity = new Vector2(RB.velocity.x + (Time.fixedDeltaTime  * speedDif * accelRate) / RB.mass, RB.velocity.y);
 		 * Time.fixedDeltaTime is by default in Unity 0.02 seconds equal to 50 FixedUpdate() calls per second
 		*/
+
+		PlayerAnimator.SetFloat("Speed", Mathf.Abs(RB.linearVelocityX));
+	
 	}
 
 	private void Turn()
@@ -376,7 +415,7 @@ public class PlayerMovement : MonoBehaviour
     #endregion
 
 
-    #region CHECK METHODS
+    #region CHECK METHODS //tutaj jest do zmiany sprawdzanie czy mo¿e u¿yæ e
     public void CheckDirectionToFace(bool isMovingRight)
 	{
 		if (isMovingRight != IsFacingRight)
@@ -399,6 +438,11 @@ public class PlayerMovement : MonoBehaviour
 		return IsJumping && RB.linearVelocity.y > 0;
     }
 
+	private bool CanCheck()
+	{
+		return true;
+	}
+
 	private bool CanWallJumpCut()
 	{
 		return IsWallJumping && RB.linearVelocity.y > 0;
@@ -413,6 +457,25 @@ public class PlayerMovement : MonoBehaviour
 	}
     #endregion
 
+    #region Respawn and Die
+    private Vector3 respawnPoint;
+    public void SetCheckpoint(Vector3 newCheckpoint)
+    {
+        respawnPoint = newCheckpoint;
+    }
+    public void Die()
+    {
+        // Mo¿na tu dodaæ animacjê œmierci, efekt, dŸwiêk itd.
+        transform.position = respawnPoint;
+        // np. reset prêdkoœci itp.
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
+    }
+
+    #endregion
 
     #region EDITOR METHODS
     private void OnDrawGizmosSelected()
