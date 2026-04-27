@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 0bd8985f40fd7f244b84f41bc97f1787
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9135870207441250486
+    second: 1 robocik pada 1_0
+  - first:
+      213: 67941078893569457
+    second: 1 robocik pada 1_1
+  - first:
+      213: -826655669481057292
+    second: 1 robocik pada 1_2
+  - first:
+      213: 4445326080303422581
+    second: 1 robocik pada 1_3
+  - first:
+      213: -8115719198169016485
+    second: 1 robocik pada 1_4
+  - first:
+      213: -1970382593856972039
+    second: 1 robocik pada 1_5
+  - first:
+      213: 8108190442139832121
+    second: 1 robocik pada 1_6
+  - first:
+      213: -4585678161847455252
+    second: 1 robocik pada 1_7
+  - first:
+      213: -1414943782755045972
+    second: 1 robocik pada 1_8
+  - first:
+      213: -4718720166212529127
+    second: 1 robocik pada 1_9
+  - first:
+      213: 8669488347767239995
+    second: 1 robocik pada 1_10
+  - first:
+      213: 3866911087747928878
+    second: 1 robocik pada 1_11
+  - first:
+      213: 1724162330556714818
+    second: 1 robocik pada 1_12
+  - first:
+      213: 5861079714665489580
+    second: 1 robocik pada 1_13
+  - first:
+      213: -3709258090655724917
+    second: 1 robocik pada 1_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1 robocik pada 1_0
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 572
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47d363437ed63180800000000000000
+      internalID: -9135870207441250486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1 robocik pada 1_1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 576
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5ab112d0061f000800000000000000
+      internalID: 67941078893569457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1 robocik pada 1_2
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 576
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3d4056c012784f0800000000000000
+      internalID: -826655669481057292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1 robocik pada 1_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 472
+        width: 70
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cd3478488f0bd30800000000000000
+      internalID: 4445326080303422581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1 robocik pada 1_4
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 564
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b575150636c2f5f80800000000000000
+      internalID: -8115719198169016485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1 robocik pada 1_5
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 533
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fada8d687bc7a4e0800000000000000
+      internalID: -1970382593856972039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1 robocik pada 1_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 559
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f46f28f34168070800000000000000
+      internalID: 8108190442139832121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1 robocik pada 1_7
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 550
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1f0dcf1066c50c0800000000000000
+      internalID: -4585678161847455252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1 robocik pada 1_8
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 546
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadecb3502c1d5ce0800000000000000
+      internalID: -1414943782755045972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1 robocik pada 1_9
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 544
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9141e6a720db38eb0800000000000000
+      internalID: -4718720166212529127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1 robocik pada 1_10
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 455
+        width: 70
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35fd0928b5305870800000000000000
+      internalID: 8669488347767239995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1 robocik pada 1_11
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 457
+        width: 116
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e231c3385270aa530800000000000000
+      internalID: 3866911087747928878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1 robocik pada 1_12
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 457
+        width: 118
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f41ff21847de710800000000000000
+      internalID: 1724162330556714818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1 robocik pada 1_13
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 521
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca462e872fcb65150800000000000000
+      internalID: 5861079714665489580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1 robocik pada 1_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 1920
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ac8364b61168cc0800000000000000
+      internalID: -3709258090655724917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1 robocik pada 1_0: -9135870207441250486
+      1 robocik pada 1_1: 67941078893569457
+      1 robocik pada 1_10: 8669488347767239995
+      1 robocik pada 1_11: 3866911087747928878
+      1 robocik pada 1_12: 1724162330556714818
+      1 robocik pada 1_13: 5861079714665489580
+      1 robocik pada 1_14: -3709258090655724917
+      1 robocik pada 1_2: -826655669481057292
+      1 robocik pada 1_3: 4445326080303422581
+      1 robocik pada 1_4: -8115719198169016485
+      1 robocik pada 1_5: -1970382593856972039
+      1 robocik pada 1_6: 8108190442139832121
+      1 robocik pada 1_7: -4585678161847455252
+      1 robocik pada 1_8: -1414943782755045972
+      1 robocik pada 1_9: -4718720166212529127
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
