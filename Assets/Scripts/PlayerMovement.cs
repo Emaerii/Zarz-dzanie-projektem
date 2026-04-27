@@ -52,7 +52,13 @@ public class PlayerMovement : MonoBehaviour
 
 	//checkin mechanic
     public bool canCheck;
-    
+
+	//carry and daliver
+    private bool isCarrying = false;
+    private GameObject carriedObject;
+
+    [SerializeField] private Transform carryPoint;
+
 
     //Set all of these up in the inspector
     [Header("Checks")] 
@@ -68,7 +74,8 @@ public class PlayerMovement : MonoBehaviour
 	[SerializeField] private LayerMask _groundLayer;
     #endregion
 
-    #region drzwi
+    #region door and canCheck bool
+
     private Leverscript currentLever;
 	private GameObject currentInteractable;
     public void SetCurrentLever(Leverscript lever)
@@ -303,11 +310,21 @@ public class PlayerMovement : MonoBehaviour
 
 	public void OnEInput()
 	{
-		if (!CanCheck())
+        // jeœli coœ niesiesz i nie jesteœ przy interactable -> upuœæ
+        if (isCarrying && !CanCheck())
+        {
+            DropObject();
+            return;
+        }
+
+        if (!CanCheck())
 			return;
 
-		
-		PlayerAnimator.SetBool("IsChecking", true);
+
+        if (PlayerAnimator != null)
+        {
+            PlayerAnimator.SetBool("IsChecking", true);
+        }
 
         Leverscript lever =
         currentInteractable.GetComponent<Leverscript>();
@@ -316,8 +333,23 @@ public class PlayerMovement : MonoBehaviour
         {
             lever.ToggleLever();
         }
+       
 
-        currentLever.ToggleLever();
+        // Pickup
+        PickupItem item =
+            currentInteractable.GetComponent<PickupItem>();
+
+        if (item != null)
+        {
+            if (isCarrying)
+            {
+                DropObjectAt(item.transform.position);
+            }
+
+            PickUpObject(item.gameObject); // weŸ nowy
+            return;
+        }
+
     }
 
 
@@ -447,6 +479,7 @@ public class PlayerMovement : MonoBehaviour
 	#endregion
 
 	#region OTHER MOVEMENT METHODS
+
 	private void Slide()
 	{
 		//Works the same as the Run but only in the y-axis
@@ -459,6 +492,92 @@ public class PlayerMovement : MonoBehaviour
 
 		RB.AddForce(movement * Vector2.up);
 	}
+
+    void PickUpObject(GameObject obj)
+    {
+        carriedObject = obj;
+        isCarrying = true;
+
+        Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
+        if (rb != null)
+            rb.simulated = false;
+
+        Collider2D col = obj.GetComponent<Collider2D>();
+        if (col != null)
+            col.enabled = false;
+
+        obj.transform.SetParent(carryPoint);
+        obj.transform.localPosition = Vector3.zero;
+
+        PlayerAnimator.SetBool("IsCarrying", true);
+
+		obj.tag = "Untagged";
+        currentInteractable = null;
+        canCheck = false;
+    }
+
+    void DropObject()
+    {
+        if (carriedObject == null)
+            return;
+
+        carriedObject.transform.SetParent(null);
+
+        Rigidbody2D rb =
+            carriedObject.GetComponent<Rigidbody2D>();
+
+        if (rb != null)
+            rb.simulated = true;
+
+        Collider2D col =
+            carriedObject.GetComponent<Collider2D>();
+
+        if (col != null)
+            col.enabled = true;
+
+        carriedObject.tag = "Interactable";
+
+        carriedObject = null;
+        isCarrying = false;
+
+        PlayerAnimator.SetBool("IsCarrying", false);
+
+        carriedObject.transform.position =
+	    transform.position + new Vector3(0.5f, 0, 0);
+
+
+    }
+
+    void DropObjectAt(Vector3 dropPos)
+    {
+        if (carriedObject == null)
+            return;
+
+        carriedObject.transform.SetParent(null);
+
+        carriedObject.transform.position = dropPos;
+
+        Rigidbody2D rb =
+            carriedObject.GetComponent<Rigidbody2D>();
+
+        if (rb != null)
+            rb.simulated = true;
+
+        Collider2D col =
+            carriedObject.GetComponent<Collider2D>();
+
+        if (col != null)
+            col.enabled = true;
+
+        carriedObject.tag = "Interactable";
+
+        carriedObject = null;
+        isCarrying = false;
+
+        PlayerAnimator.SetBool("IsCarrying", false);
+    }
+
+
     #endregion
 
 
