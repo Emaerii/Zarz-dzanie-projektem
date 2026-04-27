@@ -333,7 +333,25 @@ public class PlayerMovement : MonoBehaviour
         {
             lever.ToggleLever();
         }
-       
+
+        //reparing
+
+        RobotRepair robot =
+        currentInteractable.GetComponent<RobotRepair>();
+
+        if (robot != null && isCarrying)
+        {
+            robot.TryRepair(carriedObject);
+
+            carriedObject = null;
+            isCarrying = false;
+
+            PlayerAnimator.SetBool("IsCarrying", false);
+
+            return;
+        }
+
+
 
         // Pickup
         PickupItem item =
