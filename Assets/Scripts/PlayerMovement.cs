@@ -371,6 +371,16 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
+        //bush search
+        BushInteractable bush =
+		currentInteractable.GetComponent<BushInteractable>();
+
+        if (bush != null)
+        {
+            bush.Search();
+            return;
+        }
+
     }
 
 
