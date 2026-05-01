@@ -1,31 +1,42 @@
 using UnityEngine;
+using static PickupItem;
 
 public class RobotRepair : MonoBehaviour
 {
     public bool isRepaired = false;
 
-    [SerializeField] private GameObject requiredPart;
+    [SerializeField] private PartType partType;
+    [SerializeField] private int partID;
 
-    public void TryRepair(GameObject carriedObject)
+    public bool TryRepair(GameObject carriedObject)
     {
         if (isRepaired)
-            return;
+        {
+            Debug.Log("Robot ju¿ naprawiony");
+            return false;
+        }
 
-        if (carriedObject == requiredPart)
+        PickupItem item = carriedObject.GetComponent<PickupItem>();
+
+        if (item == null)
+        {
+            Debug.Log("To nie jest czêœæ robota");
+            return false;
+        }
+
+        if (item.partType == partType && item.partID == partID)
         {
             Debug.Log("Robot naprawiony!");
 
             isRepaired = true;
 
             Destroy(carriedObject);
-
-            // póŸniej:
-            // animacja naprawy
-            // zmiana sprite
+            return true;
         }
         else
         {
-            Debug.Log("To nie ta czêœæ.");
+            Debug.Log("Z³a czêœæ! Oczekiwano: " + partType + " " + partID);
+            return false;
         }
     }
 }

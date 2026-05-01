@@ -341,12 +341,15 @@ public class PlayerMovement : MonoBehaviour
 
         if (robot != null && isCarrying)
         {
-            robot.TryRepair(carriedObject);
+            bool success = robot.TryRepair(carriedObject);
 
-            carriedObject = null;
-            isCarrying = false;
+            if (success)
+            {
+                carriedObject = null;
+                isCarrying = false;
 
-            PlayerAnimator.SetBool("IsCarrying", false);
+                PlayerAnimator.SetBool("IsCarrying", false);
+            }
 
             return;
         }
