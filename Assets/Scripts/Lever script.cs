@@ -6,8 +6,8 @@ public class Leverscript : MonoBehaviour
 
     public bool state = false;
 
-    [SerializeField] private Sprite secondstate; //off w zalozeniu
-    [SerializeField] private Sprite firststate; //on w zalozeniu
+    private Sprite secondstate; //off w zalozeniu
+    private Sprite firststate; //on w zalozeniu
 
     [SerializeField] private DoorScript linkedDoor;
     public Animator animator;

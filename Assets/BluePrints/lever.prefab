@@ -79,7 +79,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -175,7 +175,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: e023a87092432d94f81b55b567b0d48c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -244,8 +244,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Leverscript
   state: 0
-  secondstate: {fileID: 21300000, guid: e23786b5d79d957498fad802195f0aa1, type: 3}
-  firststate: {fileID: 21300000, guid: e023a87092432d94f81b55b567b0d48c, type: 3}
   linkedDoor: {fileID: 0}
   animator: {fileID: 4648605850331454788}
 --- !u!61 &6940006824143340964
