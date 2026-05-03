@@ -550,33 +550,32 @@ public class PlayerMovement : MonoBehaviour
     void DropObject()
     {
         if (carriedObject == null)
+        {
+            Debug.Log("Brak obiektu do upuszczenia");
             return;
+        }
 
-        carriedObject.transform.SetParent(null);
+        // zapamiêtaj referencjê (wa¿ne!)
+        GameObject obj = carriedObject;
 
-        Rigidbody2D rb =
-            carriedObject.GetComponent<Rigidbody2D>();
+        obj.transform.SetParent(null);
 
+        Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
         if (rb != null)
             rb.simulated = true;
 
-        Collider2D col =
-            carriedObject.GetComponent<Collider2D>();
-
+        Collider2D col = obj.GetComponent<Collider2D>();
         if (col != null)
             col.enabled = true;
 
-        carriedObject.tag = "Interactable";
+        obj.tag = "Interactable";
 
+        // dopiero TERAZ zerujemy
         carriedObject = null;
         isCarrying = false;
 
-        PlayerAnimator.SetBool("IsCarrying", false);
-
-        carriedObject.transform.position =
-	    transform.position + new Vector3(0.5f, 0, 0);
-
-
+        if (PlayerAnimator != null)
+            PlayerAnimator.SetBool("IsCarrying", false);
     }
 
     void DropObjectAt(Vector3 dropPos)
