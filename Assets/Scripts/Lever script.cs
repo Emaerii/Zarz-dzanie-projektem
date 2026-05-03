@@ -6,10 +6,11 @@ public class Leverscript : MonoBehaviour
 
     public bool state = false;
 
-    [SerializeField] Color offColor = Color.red;
-    [SerializeField] Color onColor = Color.green;
+    [SerializeField] private Sprite secondstate; //off w zalozeniu
+    [SerializeField] private Sprite firststate; //on w zalozeniu
 
     [SerializeField] private DoorScript linkedDoor;
+    public Animator animator;
 
     bool playerNearby = false;
 
@@ -23,12 +24,14 @@ public class Leverscript : MonoBehaviour
         if (linkedDoor != null)
         {
             linkedDoor.UpdateDoor(state);
+            animator.SetBool("state", state);
         }
     }
     public void ToggleLever()
     {
         state = !state;
         Debug.Log("Lever state: " + state); //debug
+        animator.SetBool("state", state);
 
         UpdateVisual();
 
@@ -48,15 +51,11 @@ public class Leverscript : MonoBehaviour
     void UpdateVisual()
     {
         if (state)
-            sr.color = onColor;
+            sr.sprite = firststate;
         else
-            sr.color = offColor;
+            sr.sprite = secondstate;
 
-        // tylko dodatkowe rozjaœnienie jeœli gracz blisko
-        if (playerNearby)
-        {
-            sr.color *= 1.2f;
-        }
+        animator.SetBool("PlayerClose", playerNearby);
     }
 
     // Update is called once per frame
