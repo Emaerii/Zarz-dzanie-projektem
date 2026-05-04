@@ -1,5 +1,6 @@
 using UnityEngine;
 using static PickupItem;
+using static UnityEngine.GraphicsBuffer;
 
 public class RobotRepair : MonoBehaviour
 {
@@ -82,19 +83,18 @@ public class RobotRepair : MonoBehaviour
 
     void MoveToTarget()
     {
-        float distance = Vector2.Distance(transform.position, targetPoint.position);
-        Debug.Log(distance);
+        float distanceX = Mathf.Abs(transform.position.x - targetPoint.position.x);
+        Debug.Log(distanceX);
 
-        if (distance < stopDistance)
+        if (distanceX < stopDistance)
         {
             ReachedTarget();
+            return; // 🔥 KLUCZOWE
         }
 
         Vector2 direction = (targetPoint.position - transform.position).normalized;
 
         rb.linearVelocity = new Vector2(direction.x * moveSpeed, rb.linearVelocity.y);
-
-        
     }
 
     void ReachedTarget()
@@ -102,7 +102,7 @@ public class RobotRepair : MonoBehaviour
         Debug.Log("Robot dotarł");
 
         isMoving = false;
-        animator.SetBool("IsMoving", false);
+        animator.SetBool("IsWalking", false);
 
         rb.linearVelocity = Vector2.zero;
         rb.constraints = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionX;

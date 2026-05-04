@@ -150,6 +150,7 @@ MonoBehaviour:
   partID: 0
   targetPoint: {fileID: 0}
   moveSpeed: 2
+  stopDistance: 0.3
   targetObject: {fileID: 0}
   animator: {fileID: 6018339999583797128}
 --- !u!50 &-6919679961453795817
