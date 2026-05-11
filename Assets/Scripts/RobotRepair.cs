@@ -18,6 +18,8 @@ public class RobotRepair : MonoBehaviour
     [SerializeField] private GameObject targetObject;
     public Animator animator;
 
+    [SerializeField] private GameObject neededPart;
+
     private void Awake()
     {
        rb=GetComponent<Rigidbody2D>();
@@ -50,8 +52,15 @@ public class RobotRepair : MonoBehaviour
         {
             Debug.Log("Robot naprawiony!");
 
+            if (neededPart != null)
+            {
+                neededPart.SetActive(false);
+            }
+
             isRepaired = true;
             animator.SetBool("IsRepaired", true);
+
+            
 
             Destroy(carriedObject);
             ActivateRobot();
@@ -71,7 +80,7 @@ public class RobotRepair : MonoBehaviour
         Debug.Log("Robot startuje!");
 
         isMoving = true;
-        animator.SetBool("IsMoving", true);
+        animator.SetBool("IsWalking", true);
 
         if (rb != null)
             rb.simulated = true;
@@ -102,7 +111,7 @@ public class RobotRepair : MonoBehaviour
         Debug.Log("Robot dotarł");
 
         isMoving = false;
-        animator.SetBool("IsMoving", false);
+        animator.SetBool("IsWalking", false);
 
         rb.linearVelocity = Vector2.zero;
         rb.constraints = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionX;
