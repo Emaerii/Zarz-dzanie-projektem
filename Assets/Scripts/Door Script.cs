@@ -6,17 +6,17 @@ public class DoorScript : MonoBehaviour
     private SpriteRenderer sr;
     private Collider2D doorCollider;
 
-    [SerializeField] Color openColor = Color.gray;
-    [SerializeField] Color closedColor = Color.blue;
+  
+    [SerializeField] private Sprite closed;
+    [SerializeField] private Sprite open;
 
     void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
         doorCollider = GetComponent<Collider2D>();
-    }
+   }
 
-   
-    public void UpdateDoor(bool leverState)
+        public void UpdateDoor(bool leverState)
     {
         if (leverState)
         {
@@ -31,7 +31,7 @@ public class DoorScript : MonoBehaviour
 
     void OpenDoor()
     {
-        sr.color = openColor;
+        sr.sprite = open;
 
         if (doorCollider != null)
             doorCollider.enabled = false;
@@ -42,10 +42,11 @@ public class DoorScript : MonoBehaviour
 
     void CloseDoor()
     {
-        sr.color = closedColor;
+        sr.sprite = closed;
 
         if (doorCollider != null)
             doorCollider.enabled = true;
+
 
         // póŸniej animacja zamykania
         // DoorAnimator.SetTrigger("Close");
